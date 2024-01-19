@@ -1,0 +1,422 @@
+* {
+
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.nav-bar {
+    background-color: #202020;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.nav-blank {
+    width: 175px;
+    height: 50px;
+    background-color: #202020;
+    border-right: 1px solid grey;
+}
+
+.nav-signin {
+    width: 175px;
+    height: 50px;
+    background-color: #202020;
+    border-right: 1px solid grey;
+    display: flex;
+}
+
+.inlogo {
+
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 12px;
+
+}
+
+.signin {
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    margin-top: 13px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.nav-logo {
+    width: 435px;
+    margin-left: 350px;
+    border-right: 1px solid grey;
+    background-color: #202020;
+
+}
+
+.nav-subscribe {
+    width: 155px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    border-right: 1px solid grey;
+}
+
+.description1 {
+    color: white;
+    font-family: 'Roboto Condensed';
+    margin-left: 9px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 1px;
+
+}
+
+.description1 p {
+    color: white;
+    font-family: 'Roboto Condensed';
+    margin-left: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+
+}
+
+.nav-search {
+    height: 10px;
+    width: 10px;
+    color: white;
+    width: 30px;
+    /* border-right:1px solid grey;*/
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+/*********second nav bar******/
+.navbar2 {
+    background-color: #202020;
+    height: 40px;
+    display: flex;
+
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.navbar2 a {
+    font-family: 'Roboto Condensed';
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar3 {
+    height: 40px;
+    display: flex;
+    background-color: #151515;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-echo {
+    color: white;
+    font-family: 'Roboto Condensed';
+
+}
+
+.nav-disneylogo {
+    margin-left: 10px;
+
+}
+
+/*Hero section*/
+
+.overlay-text {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-description1 {
+    font-family: 'Roboto Condensed';
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+.hero-description2 {
+
+    color: white;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+/* body section */
+.movie_section {
+
+    display: flex;
+    width: 78%;
+    margin-left: 180px;
+    height: 360px;
+
+}
+
+.imghover:hover {
+    color: red;
+}
+
+.mov-year {
+    color: gray;
+}
+
+.mov-font p {
+    font-family: 'Roboto Condensed';
+}
+
+.mov-font-year {
+    font-family: 'Roboto Condensed';
+    font-size: 12px;
+}
+
+
+
+/*body 2 section*/
+.body2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.disney {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    top: 32%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-description3 {
+    font-family: 'Roboto Condensed';
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+.hero-description4 {
+
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+
+.news-section {
+
+
+    width: 78%;
+    margin-top: 30px;
+    margin-left: 170px;
+    height: 360px;
+
+}
+
+.news-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+
+.newscaption {
+    color: grey;
+    font-family: 'Roboto Condensed';
+}
+
+.news {
+    font-family: 'Roboto Condensed';
+}
+
+.news:hover {
+    color: red;
+
+}
+
+.photo {
+    display: flex;
+
+
+}
+
+.photo1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.news-photo {
+    margin-left: 10px;
+}
+
+/*pages*/
+
+.pageno {
+    height: 50px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.pagenumber:hover {
+    color: red;
+}
+
+/*marvelmovsection*/
+.marvelmovsection {
+
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 170px;
+    height: 790px;
+
+
+}
+
+.marvel1 {
+    margin-left: 10px;
+}
+
+
+.footer {
+    background-color: black;
+    height: 350px;
+    display: flex;
+
+}
+
+.footimg {
+    margin-left: 200px;
+}
+
+.foot2 {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: red;
+    text-align: center;
+}
+
+.footdes1 {
+    color: white;
+}
+
+.footdes1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto Condensed';
+}
+
+.footdes2 {
+    font-family: 'Roboto Condensed';
+    color: white;
+}
+
+/*footerend*/
+.footerend {
+    height: 320px;
+    background-color: #202020;
+    display: flex;
+}
+
+.mlogo {
+    margin-left: 160px;
+    padding-top: 90px;
+}
+
+
+.footertag {
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-left: 50px;
+    width: 230px;
+    height: 72%;
+    color: white;
+}
+
+.footertag1 {
+    font-weight: 400;
+    padding-top: 80px;
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 72%;
+    color: white;
+}
+
+.foot{
+    padding-top: 80px;
+}
+.footer-section3{
+    padding-top: 80px;
+    margin-left: 30px;
+}
+.marvel-insider{
+    font-family: 'Roboto Condensed';
+    color: white;
+}
+
+.marvel-insider1{
+        color:gray
+}
+.socialmedia{
+    padding-top: 80px;
+    margin-left: 50px;
+  
+}
+.sociallogo{
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.footer-end{
+    height: 50px;   
+    background-color: #202020;
+    color: white;
+    font-size: 12px;
+}
+.footerhov p:hover{
+    color: gray;
+}
+.footer-end{
+   padding-left: 400px;
+    display: flex;
+}
