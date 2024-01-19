@@ -173,12 +173,15 @@
     display: flex;
     width: 78%;
     margin-left: 180px;
+   
     height: 360px;
 
 }
 
+
 .imghover:hover {
     color: red;
+     margin-top: 10px;
 }
 
 .mov-year {
@@ -281,7 +284,8 @@
 .photo1 {
     display: flex;
     flex-wrap: wrap;
-
+   width: 100%;
+   
 }
 
 .news-photo {
@@ -420,3 +424,8 @@
    padding-left: 400px;
     display: flex;
 }
+.footer-end p:hover{
+color: gray;
+}
+
+
