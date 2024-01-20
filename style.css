@@ -181,7 +181,8 @@
 
 .imghover:hover {
     color: red;
-     margin-top: 10px;
+     margin-top: 5px;
+     transition: 0.2s ease;
 }
 
 .mov-year {
