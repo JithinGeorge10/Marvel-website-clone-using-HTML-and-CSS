@@ -288,6 +288,13 @@
    width: 100%;
    
 }
+.photo2 {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   width: 100%;
+   
+}
 
 .news-photo {
     margin-left: 10px;
@@ -311,8 +318,8 @@
     width: 89%;
     margin-top: 30px;
     margin-left: 170px;
-    height: 790px;
-
+    height: 400px;
+position: relative;
 
 }
 
